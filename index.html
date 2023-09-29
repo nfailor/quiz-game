@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="reset" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <title>Coding Knowledge Challenge</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <h1 id="head">Web API Coding Quiz</h1>
+
+        <p id="sub-nav">Welcome to the Web API/Javascript Knowledge Quiz! Click "Start Game" to begin!</p>
+
+    </header>
+
+    <nav class="nav-bar">
+
+        <a href="highscores.html"><button id="scores-btn">High Scores</button></a>
+
+        <button id="start-btn">Start Game</button>
+
+        <p id="timer">Timer: <span id="time-left">00</span></p>
+
+    </nav>
+
+    <section class="question-container">
+        <div class="question" id="ques"></div>
+		<div class="options" id="opt"></div>
+		<button onclick="checkAns()" id="btn">SUBMIT</button>
+    </section>
+
+    <script src="assets/js/questions.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
