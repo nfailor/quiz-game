@@ -19,7 +19,7 @@
 
     <nav class="nav-bar">
 
-        <a href="highscores.html"><button id="scores-btn">High Scores</button></a>
+        <a id="hs-wp" href="highscores.html"><button id="scores-btn">High Scores</button></a>
 
         <button id="start-btn">Start Game</button>
 
@@ -30,7 +30,7 @@
     <section class="question-container">
         <div class="question" id="ques"></div>
 		<div class="options" id="opt"></div>
-		<button onclick="checkAns()" id="btn">SUBMIT</button>
+		<button style="display: none;" onclick="checkAns()" id="btn">SUBMIT</button>
     </section>
 
     <script src="assets/js/questions.js"></script>
