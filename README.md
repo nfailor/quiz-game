@@ -10,7 +10,7 @@ This webpage is designed to display a quiz on Javascript knowledge. Upon complet
 I used HTML and CSS to create the header and nav contents of this webpage and javascript to create the quiz content. Git/Github were used as version control and deployed to Github Pages.
 
 ## INSTALLATION
-This is a website only and does not need installation. it is currently hosted in github and you can access it at Github; XX
+This is a website only and does not need installation. it is currently hosted in github and you can access it at Github; https://nfailor.github.io/quiz-game/
 
 ## USAGE
 This webpage is used to take a quiz on Javascript knowledge and submit their score and initials to the leaderboard. See webpage below:
